@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="nofollow" />
+    <title>Iris McDonald</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="js/Script1.js"></script>
+</head>
+<body>
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <div class="container">
+    <nav class="navbar navbar-expand-sm bg-light rounded mynavbar">
+
+        <ul class="navbar navbar-expand-sm bg-light mynavbar">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.irismcdonald.com">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#background">Background</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#goals">Goals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#travel">Travel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contactme">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    <!--page banner-->
+    <div class="container">
+        <div class="row rounded mybanner">
+            <div class="col-lg-12 rounded mybanner">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img id="familypic" class="img-fluid rounded-circle" src="img/family.jpg"
+             alt="family" title="family at the beach" align="middle" />
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mycolumn1">
+                <div>
+                    <br />
+                    <br />
+                    <h2 class="text-uppercase">Iris McDonald</h2>
+                    <p> Wife, mother, and software development student.</p>
+                    <p> The great outdoors, yoga, family life.</p>
+                    <section>
+                        <!--Background-->
+                        <h4 id="background">Background</h4>
+                        <div class="container">
+                            <p>
+                                <img id="trees" class="img-fluid rounded" src="img/tree.jpg" />
+                                I was born on the 8<sup>th</sup> of May and raised in the Greater Cleveland area of Ohio.
+                                <b>Cleveland Rocks!</b>  My parents and brothers immigrated to the United States in 1952.
+                                One of my favorite childhood memories is going with my family every Saturday to shop at the West Side Market,
+                                visit Cleveland Pubic Library, and, finally, stop for a treat at Hough bakeries!
+
+                                My husband and I have been married over 20 years and raised three <em>wonderful</em> children.
+                            </p>
+                        </div>
+                        <br /><br /><br /><br /><br />
+                        <p>
+                            <img id="daisygif" class="img-fluid rounded" src="img/waving.gif" />
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <!--Column2-->
+            <div class="col-md-4 mycolumn2">
+                <div>
+                    <h4 id="goals">Goals</h4>
+                    <ol>
+                        <li>Complete the <i>Cleveland Codes Program!</i></li>
+                        <li>Gain a position as a software developer.</li>
+                        <li>Visit all 58 national parks in the United States.</li>
+                        <li>Live each day with <strong>faith</strong> and <strong>courage.</strong></li>
+                    </ol>
+                </div>
+
+                <!--Column2 Favorite Things Button w/AJAZ asynchronous load-->
+                <div class="container">
+                    <p></p>
+                    <button id="btn" type="button"><b>See my favorite things</b></button>
+                    <br />
+                    <div id="content">
+
+                    </div>
+                </div>   
+
+            </div><!--end of column2-->
+            
+
+
+            <!--Column 3-->
+            <div class="col-md-4 mycolumn3">
+
+                <div>
+                    <h4 id="travel">Favorite Travel Destinations</h4>
+                    <p>
+                        <ul id="travellist">
+                            <li>
+                                <a href="http://turksandcaicostourism.com/"
+                                   target="blank">Turks and Caicos</a>
+                            </li>
+                            <li>
+                                <a href="https://www.nps.gov/yell/index.htm"
+                                   target="blank">Yellowstone National Park</a>
+                            </li>
+                            <li>
+                                <a href="http://www.appalachiantrail.org/"
+                                   target="blank">Appalachian Trail</a>
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                    <img id="lakepic" class="img-fluid rounded" src="img/lake.jpg"
+                         alt="Hallstatter, Austria" title="Hallstatter See, Austria" />
+                    </p>
+                </div><!-- end of Column 3-->
+
+                <!--Contact Me Form-->
+                <div>
+                    <br />
+                    <form id="contactme">
+                        <fieldset>
+                            <legend><em>Contact me:</em></legend>
+                            <label>
+                                Name:<br />
+                                <input type="text" name="name" size="25" maxlength="50" />
+                            </label><br />
+                            <label>
+                                Email:<br />
+                                <input type="email" name="email" size="25" maxlength="50" />
+                            </label><br />
+                            <label>
+                                CC:<br />
+                                <input type="email" name="cc" size="25" maxlength="50" />
+                            </label><br />
+                            <label>
+                                Subject:<br />
+                                <input type="text" name="subject" size="25" maxlength="50" />
+                            </label><br />
+                            <label>
+                                Message:<br />
+                                <textarea name="message" cols="25" rows="4" maxlength="150">Enter your message here</textarea>
+                            </label>
+                            <input type="submit" value="Submit" />
+                        </fieldset>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+{
+"seaanimals": [
+  {"name": "Sea Turtles", "description": "7 species of turtles that may live hundreds of years", "path": "img/seaturtle.jpg" },
+  {"name": "Starfish", "description": "star-shaped echinoderms that crawl on tiny tube feet", "path": "img/starfish.jpg"},
+  {"name": "Seahorse", "description": "a small, upright-swimming fish with a horse-like head", "path": "img/seahorse.jpg"},
+  {"name": "Octopus", "description": "the most intelligent invertebrate", "path": "img/octopus.jpg"},
+  {"name": "Humpback Whale", "description": "a majestic-looking black-and-white whale ", "path": "img/whale.jpg"}
+  ]
+}

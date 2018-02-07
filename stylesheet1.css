@@ -1,0 +1,91 @@
+﻿body {
+    background-color: azure;
+}
+h4 {
+    color: midnightblue;
+}
+.mybanner {
+    background-color: cornflowerblue;
+    height: 200px;
+    border-bottom-style: solid;
+    border-width: 0px 0px 50px 0px;
+    border-bottom-color: azure;
+}
+.mynavbar {
+    list-style: none;
+    height: 40px;
+    }
+.mycolumn1 {
+    background-color: cornsilk;
+    height: 100%;
+    text-align: left;
+    padding: 10px;
+    border: 3px solid azure;
+    border-radius: 10px 10px;
+}
+.mycolumn2 {
+    background-color: cornsilk;
+    height: 100%;
+    text-align: left;
+    padding: 10px;
+    border: 3px solid azure;
+    border-radius: 10px 10px;
+}
+.mycolumn3 {
+    background-color: cornsilk;
+    height: 100%;
+    text-align: left;
+    padding: 10px;
+    border: 3px solid azure;
+    border-radius: 10px 10px;
+}
+#familypic {
+    position: absolute;
+    width: 15%;
+    top: +15%;
+    left: 17%;
+    height: auto;
+    z-index: 10;
+}
+
+#contactme {
+    float: right;
+}
+
+#trees {
+    opacity: 0.4;
+    position: absolute;
+    width: 98%;
+    top: 26%;
+}
+#daisygif {
+    }
+#background {
+}
+
+#btn {
+    width: 75%; /* setting the width */
+    margin: 0 auto; /*this together with display: block: centers it*/
+    border: solid 8px midnightblue;
+    padding: 20px 20px;
+    display: block;
+    font-size: 20px;
+    background-color: lightblue;
+    color: midnightblue;
+    border-radius: 10px 10px;
+}
+.seaanimal {
+    align-content: center;
+    /*display: none;*/
+}
+.favorites {
+    width: 95%;
+    border-radius: 10px 10px;
+    border: solid 2px midnightblue;
+    align-content:center;
+}
+
+
+
+
+
