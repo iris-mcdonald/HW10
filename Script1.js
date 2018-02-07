@@ -2,11 +2,23 @@
 $(document).ready(function () {
     $("#btn").click(function () {
         $("#btn").fadeOut(2000);
-        $("#content").delay(2000).show(2000);
+        $(".seaanimal").delay(3000).show(2000);
+        console.log('Button Clicked' + '<br />')
     });
-});
+});//end of button click JQuery event handler
 
-var xhr = new XMLHttpRequest();
+$(document).ready(function () {
+    $("#btn").hover(function () {
+         $("#btn").css(
+            {
+                'background-color': 'lightgreen'
+            })
+    });//end of button hover JQuery event handler    
+});//end of checkButtonHover      
+
+
+    var xhr = new XMLHttpRequest();
+
 
 xhr.onload = function () {
     if (xhr.status === 200) {

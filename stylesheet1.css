@@ -76,7 +76,7 @@ h4 {
 }
 .seaanimal {
     align-content: center;
-    /*display: none;*/
+    display: none;
 }
 .favorites {
     width: 95%;
