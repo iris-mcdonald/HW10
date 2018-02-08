@@ -1,4 +1,4 @@
-
+  
 $(document).ready(function () {
     $("#btn").click(function () {
         $("#btn").fadeOut(2000);
@@ -7,18 +7,24 @@ $(document).ready(function () {
     });
 });//end of button click JQuery event handler
 
+
 $(document).ready(function () {
     $("#btn").hover(function () {
-         $("#btn").css(
+        $("#btn").css(
             {
                 'background-color': 'lightgreen'
             })
-    });//end of button hover JQuery event handler    
-});//end of checkButtonHover      
+        /*});//end of button hover JQuery event handler*/
+    },
+        function () {
+            $("#btn").css(
+                {
+                    'background-color': 'lightblue'
+                })
+        });//end of checkButtonHover -->*/  
+});
 
-
-    var xhr = new XMLHttpRequest();
-
+var xhr = new XMLHttpRequest();
 
 xhr.onload = function () {
     if (xhr.status === 200) {
